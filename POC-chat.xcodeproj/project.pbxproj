@@ -12,6 +12,9 @@
 		CA79FF90216FBEE90089DD4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA79FF8E216FBEE90089DD4E /* Main.storyboard */; };
 		CA79FF92216FBEED0089DD4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA79FF91216FBEED0089DD4E /* Assets.xcassets */; };
 		CA79FF95216FBEED0089DD4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA79FF93216FBEED0089DD4E /* LaunchScreen.storyboard */; };
+		CA79FF9E216FC9DD0089DD4E /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA79FF9C216FC9DD0089DD4E /* CommentCell.swift */; };
+		CA79FF9F216FC9DD0089DD4E /* CommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA79FF9D216FC9DD0089DD4E /* CommentCell.xib */; };
+		CA79FFA1216FED460089DD4E /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA79FFA0216FED460089DD4E /* UIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		CA79FF91216FBEED0089DD4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA79FF94216FBEED0089DD4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA79FF96216FBEED0089DD4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA79FF9C216FC9DD0089DD4E /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		CA79FF9D216FC9DD0089DD4E /* CommentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentCell.xib; sourceTree = "<group>"; };
+		CA79FFA0216FED460089DD4E /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				CA79FF91216FBEED0089DD4E /* Assets.xcassets */,
 				CA79FF93216FBEED0089DD4E /* LaunchScreen.storyboard */,
 				CA79FF96216FBEED0089DD4E /* Info.plist */,
+				CA79FF9C216FC9DD0089DD4E /* CommentCell.swift */,
+				CA79FF9D216FC9DD0089DD4E /* CommentCell.xib */,
+				CA79FFA0216FED460089DD4E /* UIViewController.swift */,
 			);
 			path = "POC-chat";
 			sourceTree = "<group>";
@@ -125,6 +134,7 @@
 				CA79FF95216FBEED0089DD4E /* LaunchScreen.storyboard in Resources */,
 				CA79FF92216FBEED0089DD4E /* Assets.xcassets in Resources */,
 				CA79FF90216FBEE90089DD4E /* Main.storyboard in Resources */,
+				CA79FF9F216FC9DD0089DD4E /* CommentCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +147,8 @@
 			files = (
 				CA79FF8D216FBEE90089DD4E /* ViewController.swift in Sources */,
 				CA79FF8B216FBEE90089DD4E /* AppDelegate.swift in Sources */,
+				CA79FFA1216FED460089DD4E /* UIViewController.swift in Sources */,
+				CA79FF9E216FC9DD0089DD4E /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E22L8KF9WN;
 				INFOPLIST_FILE = "POC-chat/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E22L8KF9WN;
 				INFOPLIST_FILE = "POC-chat/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
